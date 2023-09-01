@@ -49,7 +49,7 @@
     width: 100%;
     height: 450px;
     border-radius: 20px;
-    // padding: 80px 48px;
+    padding: 80px 48px;
     margin: 20px 20px;
     transition: all  transform 2s; 
 }
@@ -72,45 +72,22 @@
 .barati6:hover {
 	transform: scale(1.05); 
   }
-  .barati7:hover {
-	transform: scale(1.05); 
-  }
-  .barati8:hover {
-	  transform: scale(1.05); 
-	}
-  .barati9:hover {
-	  transform: scale(1.05); 
-  }
-  .barati10:hover {
-	  transform: scale(1.05); 
-	}
-  .barati11:hover {
-	  transform: scale(1.05); 
-	}
-  .barati12:hover {
-	  transform: scale(1.05); 
-	}
-.barati13:hover {
-  transform: scale(1.05); 
+
+@mixin logo{
+	height: 20px;
+	width: 50px;
+	vertical-align: middle;
+	transition: all  transform 2s; 
 }
-.barati14:hover {
-	transform: scale(1.05); 
+.logo:hover {
+	transform: scale(1.09); 
   }
-.barati15:hover {
-	transform: scale(1.05); 
-}
-.barati16:hover {
-	transform: scale(1.05); 
+  .logo1:hover {
+	transform: scale(1.09); 
   }
-.barati17:hover {
-	transform: scale(1.05); 
+  .logo2:hover {
+	transform: scale(1.09); 
   }
-.barati18:hover {
-	transform: scale(1.05); 
-}
-.barati19:hover {
-	transform: scale(1.05); 
+  .logo0:hover {
+	transform: scale(1.09); 
   }
-.barati20:hover {
-	transform: scale(1.05); 
-}

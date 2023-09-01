@@ -97,88 +97,28 @@ a {
           transform: scale(1.05);
 }
 
-.barati7:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+.logo:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
 }
 
-.barati8:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+.logo1:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
 }
 
-.barati9:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+.logo2:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
 }
 
-.barati10:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati11:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati12:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati13:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati14:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati15:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati16:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati17:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati18:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati19:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.barati20:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+.logo0:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
 }
 
 header {
@@ -389,7 +329,6 @@ header .hddiv .damatebiti .dropdown {
   height: 51px;
   border-radius: 10px;
   color: white;
-  position: absolute;
 }
 .s-2 .box1 .aboutus button:hover {
   background-color: #377d3a;
@@ -442,7 +381,7 @@ header .hddiv .damatebiti .dropdown {
   .s-2 .box1 .img {
     max-width: 600px;
     width: 100%;
-    margin: 40px auto;
+    margin: 20px auto;
   }
   .s-2 .box1 .img .s-2img {
     width: 100%;
@@ -480,6 +419,49 @@ header .hddiv .damatebiti .dropdown {
   background-color: #e3e3e3;
   vertical-align: middle;
   margin-top: 5px;
+}
+.s-2 .box2 .div2 {
+  margin-top: 20px;
+}
+.s-2 .box2 .div2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-2 .box2 .div2 ul a {
+  width: 70px;
+}
+.s-2 .box2 .div2 ul .logo {
+  height: 20px;
+  width: 50px;
+  vertical-align: middle;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
+}
+.s-2 .box2 .div2 ul .logo0 {
+  height: 20px;
+  width: 50px;
+  vertical-align: middle;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
+}
+.s-2 .box2 .div2 ul .logo1 {
+  height: 30px;
+  width: 40px;
+  vertical-align: middle;
+}
+.s-2 .box2 .div2 ul .logo2 {
+  height: 40px;
+  width: 50px;
+  vertical-align: middle;
 }
 @media (max-width: 1450px) {
   .s-2 .box2 {
@@ -1022,7 +1004,7 @@ header .hddiv .damatebiti .dropdown {
 }
 
 footer {
-  background-color: rgb(7, 1, 30);
+  background-color: black;
   margin-top: 96px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1098,7 +1080,7 @@ footer .form form {
 }
 footer .form form #email {
   padding: 24px 22px;
-  background-color: rgb(5, 2, 21);
+  background-color: black;
   max-width: 456px;
   width: 100%;
   height: 64px;
@@ -1126,12 +1108,12 @@ footer .form form #submit {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 17px 70px;
   width: 100%;
 }
-.meore header .hddiv .damatebiti .tbc {
-  max-width: 180px;
+.meore header .hddiv .damatebiti .yrc {
+  max-width: 80px;
   width: 100%;
+  margin-bottom: 50px;
 }
 .meore header .hddiv .damatebiti nav {
   vertical-align: center;
@@ -1221,7 +1203,7 @@ footer .form form #submit {
   width: 100%;
   margin-left: 290px;
   margin-bottom: 50px;
-  padding-top: 105.5px;
+  padding-top: 120px;
 }
 @media (max-width: 1300px) {
   .meore .s-1-4 {
@@ -1471,232 +1453,268 @@ footer {
   margin-top: 0;
 }
 
-.s-3-5 {
-  margin-bottom: 100px;
-  padding: 20px;
-  background-color: rgb(250, 250, 227);
-}
-.s-3-5 h1 {
-  color: var(--primary-text, #1D2130);
-  font-family: Roboto;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 57.6px */
-  margin: 50px auto;
-  max-width: 700px;
-  width: 100%;
-  text-align: center;
-}
-@media (max-width: 600px) {
-  .s-3-5 h1 {
-    font-size: 30px;
-  }
-}
-.s-3-5 .baratebi {
+.s-1-4 {
+  margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 1120px;
+  width: 100%;
+  margin-left: 160px;
+  padding-top: 105.5px;
+}
+@media (max-width: 1300px) {
+  .s-1-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    padding: 25px;
+  }
+}
+.s-1-4 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+}
+.s-1-4 .box1 .line {
+  width: 71px;
+  height: 1px;
+  background-color: black;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.s-1-4 .box1 .aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 1500px;
+  margin-right: 96px;
+  max-width: 608px;
   width: 100%;
 }
-.s-3-5 .baratebi button {
-  background-color: #f2f2bb;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  /* padding: 16px 32px; */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  /* gap: 10px; */
-  border: none;
-  max-width: 146px;
-  width: 100%;
-  height: 51px;
-  border-radius: 10px;
-  margin-top: 350px;
-  margin-left: 10px;
-}
-.s-3-5 .baratebi button a {
-  color: var(--primary-text, #1D2130);
-  text-align: center;
+.s-1-4 .box1 .aboutus h3 {
+  color: black;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
-.s-3-5 .baratebi button:hover {
-  background-color: rgb(239, 248, 122);
-  cursor: pointer;
+.s-1-4 .box1 .aboutus h4 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
 }
-.s-3-5 .baratebi .barati1 {
-  background-image: url("../imgs/mate1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
+@media (max-width: 1200px) {
+  .s-1-4 .box1 .aboutus h4 {
+    font-size: 16px;
+  }
 }
-.s-3-5 .baratebi .barati2 {
-  background-image: url("../imgs/avto.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
+.s-1-4 .box1 .aboutus p {
+  color: var(--secondary-text, #525560);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
 }
-.s-3-5 .baratebi .barati3 {
-  background-image: url("../imgs/paata.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
+@media (max-width: 1200px) {
+  .s-1-4 .box1 .aboutus {
+    margin-bottom: 40px;
+    margin-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
-.s-3-5 .baratebi .barati4 {
-  background-image: url("../imgs/ninoo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-3-5 .baratebi .barati5 {
-  background-image: url("../imgs/nodo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-3-5 .baratebi .barati6 {
-  background-image: url("../imgs/lanna.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-@media (max-width: 500px) {
-  .s-3-5 .baratebi .crd {
-    max-width: 300px;
+@media (max-width: 1200px) {
+  .s-1-4 .box1 {
+    margin: 0 auto;
     width: 100%;
-    background-size: cover;
-    height: 200px;
   }
-  .s-3-5 .baratebi .crd button {
-    margin-top: 130px;
-    max-width: 100px;
-    width: 100%;
-    height: 27px;
-  }
-  .s-3-5 .baratebi .crd button a {
-    font-size: 10px;
-    color: #000000;
+  .s-1-4 .box1 .line {
+    display: none;
   }
 }
-@media (max-width: 913px) {
-  .s-3-5 .baratebi {
+.s-1-4 .form {
+  margin: 0 auto;
+}
+.s-1-4 .form img {
+  max-width: 400px;
+  border-radius: 30px;
+  width: 100%;
+  margin: 27px auto;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
+}
+.s-1-4 .form img:hover {
+  -webkit-transform: scale(1.04);
+      -ms-transform: scale(1.04);
+          transform: scale(1.04);
+}
+@media (max-width: 800px) {
+  .s-1-4 {
+    margin-left: 0;
+  }
+  .s-1-4 .line {
+    display: none;
+  }
+}
+
+.s-2-1 {
+  max-width: 1100px;
+  width: 100%;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #EFF7F2;
+  padding: 50px;
+  border-radius: 30px;
+}
+.s-2-1 h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.s-2-1 .video {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+@media (max-width: 1150px) {
+  .s-2-1 {
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .s-2-1 h1 {
+    margin: 50px auto;
+    font-size: 30px;
+  }
+}
+
+.s-2-2 {
+  background-color: #EFF7F2;
+  padding: 92px 100px;
+}
+.s-2-2 h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.s-2-2 .advice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1580px;
+  width: 100%;
+}
+.s-2-2 .advice .div1 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.s-2-2 .advice .div1 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 48px;
+  margin-right: 40px;
+  max-width: 370px;
+  width: 100%;
+  -webkit-box-align: first baseline;
+      -ms-flex-align: first baseline;
+          align-items: first baseline;
+}
+.s-2-2 .advice .div1 .main i {
+  margin-right: 9px;
+  color: green;
+}
+.s-2-2 .advice .div1 .main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.s-2-2 .advice .div1 .main div h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.s-2-2 .advice .div1 .main div p {
+  color: var(--secondary-text, #525560);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+@media (max-width: 890px) {
+  .s-2-2 .advice .div1 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
-@media (max-width: 500px) {
-  .s-3-5 .baratebi h1 {
-    font-size: 20px;
-    vertical-align: top;
+@media (max-width: 800px) {
+  .s-2-2 {
+    padding: 20px 20px;
+  }
+  .s-2-2 h1 {
+    font-size: 29px;
+    margin: 0 auto;
   }
 }
 
@@ -1880,6 +1898,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -1902,6 +1921,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -1924,6 +1944,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -1946,6 +1967,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -1968,6 +1990,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -1990,6 +2013,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2012,6 +2036,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2034,6 +2059,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2056,6 +2082,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2078,6 +2105,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2100,6 +2128,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2122,6 +2151,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2144,6 +2174,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2166,6 +2197,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2188,6 +2220,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2210,6 +2243,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2232,6 +2266,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2254,6 +2289,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2276,6 +2312,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2298,6 +2335,7 @@ footer {
   width: 100%;
   height: 450px;
   border-radius: 20px;
+  padding: 80px 48px;
   margin: 20px 20px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
@@ -2332,29 +2370,4 @@ footer {
     font-size: 20px;
     vertical-align: top;
   }
-}
-
-.s-3-6 {
-  margin-top: 30px;
-  background-color: rgb(175, 224, 245);
-  padding: 30px;
-}
-.s-3-6 .baratebi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 1500px;
-  width: 100%;
-}
-.s-3-6 .baratebi video {
-  max-width: 200px;
-  width: 100%;
-  height: auto;
-  border-radius: 30px;
-  margin: 5px;
 }/*# sourceMappingURL=global.css.map */
