@@ -80,6 +80,7 @@
         margin: 50px auto;
         max-width: 700px;
         width: 100%;
+        text-align: center;
         @media (max-width:600px){
             font-size: 30px;
         }
@@ -91,25 +92,8 @@
         max-width: 1500px;
         width: 100%;
         margin: 0 auto;
-        h1{
-            color: #FFF;
-            font-family: Roboto;
-            font-size: 28px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 150%; /* 42px */
-            background-color: #00000025;
-        }
-        p{
-            color: var(--secondary-text, #fff);
-            font-family: Roboto;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 160%; /* 25.6px */
-            background-color: #00000025;
-        }
         button{
+            position: absolute;
             background-color: #fff;
             display: inline-flex;
             /* padding: 16px 32px; */
@@ -120,9 +104,12 @@
             width: 146px;
             height: 51px;
             border-radius: 10px;
+            bottom: 8px;
+            right: 16px;
+
             a{
                 color: var(--primary-text, #1D2130);
-                text-align: right;
+                text-align: center;
                 font-family: Roboto;
                 font-size: 16px;
                 font-style: normal;
@@ -131,19 +118,19 @@
             }
         }
         button:hover{
-            background-color: rgb(188, 241, 188);
+            background-color: rgb(239, 248, 122);
             cursor: pointer;
         }
         .barati1{
-            background-image: url("../imgs/detective.jpeg");
+            background-image: url("../../imgs/lia.jpg");
             @include barati;
         }
         .barati2{
-            background-image: url("../imgs/comedy.jpeg");
+            background-image: url("../../imgs/manoni.jpg");
             @include barati;
         }
         .barati3{
-            background-image: url("../imgs/romantic.jpeg");
+            background-image: url("../../imgs/nini.jpg");
             @include barati;
         }
         .barati4{
@@ -151,11 +138,66 @@
             @include barati;
         }
         .barati5{
-            background-image: url("../imgs/thriller.jpeg");
+            background-image: url("../../imgs/nika.jpg");
             @include barati;
         }
         .barati6{
-            background-image: url("../imgs/adventure.jpeg");
+            background-image: url("../../imgs/david.jpg");
+            @include barati;
+        }
+        .barati7{
+            background-image: url("../../imgs/keso.jpg");
+            @include barati;
+        }
+        .barati8{
+            background-image: url("../../imgs/lizi.jpg");
+            @include barati;
+        }
+        .barati9{
+            background-image: url("../../imgs/salome.jpg");
+            @include barati;
+        }
+        .barati10{
+            background-image: url("../../imgs/ninokh.jpg");
+            @include barati;
+        }
+        .barati11{
+            background-image: url("../../imgs/giorgi.jpg");
+            @include barati;
+        }
+        .barati12{
+            background-image: url("../../imgs/dachi.jpg");
+            @include barati;
+        }.barati13{
+            background-image: url("../imgs/detective.jpeg");
+            @include barati;
+        }
+        .barati14{
+            background-image: url("../../imgs/tea.jpg");
+            @include barati;
+        }
+        .barati15{
+            background-image: url("../../imgs/eldari.jpg");
+            @include barati;
+        }
+        .barati16{
+            background-image: url("../../imgs/lana.jpg");
+            @include barati;
+        }
+        .barati17{
+            background-image: url("../../imgs/liza.jpg");
+            @include barati;
+        }
+        .barati18{
+            background-image: url("../../imgs/mariami.jpg");
+            @include barati;
+        }
+        .barati19{
+            background-image: url("../../imgs/qeti.jpg");
+            @include barati;
+        }
+        .barati20{
+            background-image: url("../../imgs/cotne.jpg");
             @include barati;
         }
         @media(max-width: 913px){
