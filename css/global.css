@@ -2332,4 +2332,29 @@ footer {
     font-size: 20px;
     vertical-align: top;
   }
+}
+
+.s-3-6 {
+  margin-top: 30px;
+  background-color: rgb(175, 224, 245);
+  padding: 30px;
+}
+.s-3-6 .baratebi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1500px;
+  width: 100%;
+}
+.s-3-6 .baratebi video {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin: 5px;
 }/*# sourceMappingURL=global.css.map */
