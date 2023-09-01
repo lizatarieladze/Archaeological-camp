@@ -389,6 +389,7 @@ header .hddiv .damatebiti .dropdown {
   height: 51px;
   border-radius: 10px;
   color: white;
+  position: absolute;
 }
 .s-2 .box1 .aboutus button:hover {
   background-color: #377d3a;
@@ -479,49 +480,6 @@ header .hddiv .damatebiti .dropdown {
   background-color: #e3e3e3;
   vertical-align: middle;
   margin-top: 5px;
-}
-.s-2 .box2 .div2 {
-  margin-top: 20px;
-}
-.s-2 .box2 .div2 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: 60px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.s-2 .box2 .div2 ul a {
-  width: 70px;
-}
-.s-2 .box2 .div2 ul .logo {
-  height: 20px;
-  width: 50px;
-  vertical-align: middle;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-2 .box2 .div2 ul .logo0 {
-  height: 20px;
-  width: 50px;
-  vertical-align: middle;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-2 .box2 .div2 ul .logo1 {
-  height: 30px;
-  width: 40px;
-  vertical-align: middle;
-}
-.s-2 .box2 .div2 ul .logo2 {
-  height: 40px;
-  width: 50px;
-  vertical-align: middle;
 }
 @media (max-width: 1450px) {
   .s-2 .box2 {
@@ -1878,7 +1836,7 @@ footer {
 .s-3-2 {
   margin-bottom: 100px;
   padding: 20px;
-  background-color: #EFF7F2;
+  background-color: rgb(250, 250, 227);
 }
 .s-3-2 h1 {
   color: var(--primary-text, #1D2130);
@@ -1908,28 +1866,24 @@ footer {
       flex-wrap: wrap;
   max-width: 1500px;
   width: 100%;
-  margin: 0 auto;
 }
 .s-3-2 .baratebi button {
-  position: absolute;
-  background-color: #fff;
+  background-color: #f2f2bb;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   /* padding: 16px 32px; */
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   /* gap: 10px; */
   border: none;
-  width: 146px;
+  max-width: 146px;
+  width: 100%;
   height: 51px;
   border-radius: 10px;
-  bottom: 8px;
-  right: 16px;
+  margin-left: 40px;
+  margin-top: 130px;
 }
 .s-3-2 .baratebi button a {
   color: var(--primary-text, #1D2130);
@@ -2404,6 +2358,17 @@ footer {
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
 }
+@media (max-width: 500px) {
+  .s-3-2 .baratebi .crd {
+    max-width: 300px;
+    width: 100%;
+    background-size: cover;
+    height: 200px;
+  }
+  .s-3-2 .baratebi .crd button a {
+    font-size: 16px;
+  }
+}
 @media (max-width: 913px) {
   .s-3-2 .baratebi {
     -webkit-box-pack: center;
@@ -2415,253 +2380,5 @@ footer {
   .s-3-2 .baratebi h1 {
     font-size: 20px;
     vertical-align: top;
-  }
-}
-
-.s-3-3 {
-  margin-bottom: 100px;
-  padding: 20px;
-  background-color: #EFF7F2;
-}
-.s-3-3 h1 {
-  color: var(--primary-text, #1D2130);
-  font-family: Roboto;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 57.6px */
-  margin: 50px auto;
-  max-width: 700px;
-  width: 100%;
-  margin-bottom: 40px;
-}
-@media (max-width: 913px) {
-  .s-3-3 h1 {
-    margin: 50px auto;
-    font-size: 50px;
-  }
-}
-@media (max-width: 513px) {
-  .s-3-3 h1 {
-    margin: 40px auto;
-    font-size: 30px;
-  }
-}
-.s-3-3 .baratebi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 1500px;
-  width: 100%;
-  margin: 0 auto;
-}
-.s-3-3 .baratebi h1 {
-  color: #ffffff;
-  font-family: Roboto;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 150%; /* 42px */
-  background-color: rgba(0, 0, 0, 0.1450980392);
-}
-@media (max-width: 913px) {
-  .s-3-3 .baratebi h1 {
-    margin: 0 auto;
-  }
-}
-.s-3-3 .baratebi p {
-  color: var(--secondary-text, #fff);
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 25.6px */
-  background-color: rgba(0, 0, 0, 0.1450980392);
-}
-.s-3-3 .baratebi button {
-  background-color: #fff;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  /* padding: 16px 32px; */
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  /* gap: 10px; */
-  border: none;
-  width: 146px;
-  height: 51px;
-  border-radius: 10px;
-}
-.s-3-3 .baratebi button a {
-  color: var(--primary-text, #1D2130);
-  text-align: right;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.s-3-3 .baratebi button:hover {
-  background-color: rgb(188, 241, 188);
-  cursor: pointer;
-}
-.s-3-3 .baratebi .barati1 {
-  background-image: url("../imgs/detectivet.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  padding: 80px 48px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-3-3 .baratebi .barati2 {
-  background-image: url("../imgs/comedyt.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  padding: 80px 48px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-3-3 .baratebi .barati3 {
-  background-image: url("../imgs/romancet.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  padding: 80px 48px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-3-3 .baratebi .barati4 {
-  background-image: url("../imgs/horrort.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  padding: 80px 48px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-3-3 .baratebi .barati5 {
-  background-image: url("../imgs/thrillert.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  padding: 80px 48px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-.s-3-3 .baratebi .barati6 {
-  background-image: url("../imgs/adventuret.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 400px;
-  width: 100%;
-  height: 450px;
-  border-radius: 20px;
-  padding: 80px 48px;
-  margin: 20px 20px;
-  -webkit-transition: all transform 2s;
-  transition: all transform 2s;
-}
-@media (max-width: 913px) {
-  .s-3-3 .baratebi h1 {
-    font-size: 30px;
-    vertical-align: top;
-  }
-}
-@media (max-width: 913px) {
-  .s-3-3 .baratebi {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }/*# sourceMappingURL=global.css.map */

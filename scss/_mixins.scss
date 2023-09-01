@@ -114,10 +114,3 @@
 .barati20:hover {
 	transform: scale(1.05); 
 }
-
-@mixin logo{
-	height: 20px;
-	width: 50px;
-	vertical-align: middle;
-	transition: all  transform 2s; 
-}
