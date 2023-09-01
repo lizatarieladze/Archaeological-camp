@@ -1,7 +1,7 @@
 
 .s-3{
 	padding: 5px;
-	background-color: #EFF7F2;
+	background-color: #f4f7db;
 	.box1{
 		display: flex;
 		justify-content: space-between;
@@ -22,7 +22,7 @@
 			margin-right: 96px;
 			max-width: 608px;
 			h3{
-				color: black;
+				color: blue;
 				font-family: Roboto;
 				font-size: 16px;
 				font-style: normal;
@@ -32,6 +32,9 @@
 				text-transform: uppercase;
 				margin-bottom: 32px;
 				@include media;
+				@media (max-width: 500px){
+					margin: 0 auto;
+				}
 			}
 			h4{
 				font-family: Roboto;
@@ -41,6 +44,10 @@
 				line-height: 120%; /* 57.6px */
 				margin-bottom: 16px;
 				@include media;
+				@media (max-width: 500px){
+					font-size: 27px;
+					
+				}
 			}
 			.p{
 				color: var(--secondary-text, #525560);
@@ -71,16 +78,21 @@
 						align-items:first baseline;
 						i{
 							margin-right: 9px;
-							color: green;
+							color: rgb(203, 235, 19);
 						}
 						div{
 							h1{
 								color: var(--primary-text, #1D2130);
 								font-family: Roboto;
-								font-size: 24px;
+								font-size: 20px;
 								font-style: normal;
 								font-weight: 700;
 								line-height: normal;
+								@media (max-width: 700px){
+									font-size: 25px;
+									
+								}
+								
 							}
 							p{
 								color: var(--secondary-text, #525560);
