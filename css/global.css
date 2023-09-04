@@ -328,14 +328,14 @@ header .damatebiti .dropdown {
   max-width: 1150px;
   width: 100%;
   padding-left: 110px;
-  color: #7e6420;
+  color: #e7d107;
   font-family: Roboto;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 76.8px */
   margin-bottom: 40px;
-  background-color: rgba(247, 242, 155, 0.3529411765);
+  text-shadow: 5px 5px rgb(4, 132, 168);
 }
 @media (max-width: 950px) {
   .s-1 {
