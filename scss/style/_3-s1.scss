@@ -105,7 +105,6 @@
             border-radius: 10px;
             margin-left: 10px;
             margin-top: 130px;
-
             a{
                 color: var(--primary-text, #1D2130);
                 text-align: center;
@@ -121,7 +120,7 @@
             cursor: pointer;
         }
         .barati1{
-            background-image: url("../imgs/lia.jpg");
+            background-image: url("../imgs/lika.jpg");
             @include barati;
         }
         .barati2{
@@ -133,19 +132,19 @@
             @include barati;
         }
         .barati4{
-            background-image: url("../imgs/horror.jpeg");
+            background-image: url("../imgs/nino.jpg");
             @include barati;
         }
         .barati5{
-            background-image: url("../imgs/nika.jpg");
+            background-image: url("../photo/9.jpg");
             @include barati;
         }
         .barati6{
-            background-image: url("../../imgs/david.jpg");
+            background-image: url("../imgs/david (2).jpg");
             @include barati;
         }
         .barati7{
-            background-image: url("../imgs/keso.jpg");
+            background-image: url("../photo/23.jpg");
             @include barati;
         }
         .barati8{
@@ -165,11 +164,11 @@
             @include barati;
         }
         .barati12{
-            background-image: url("../imgs/dachi.jpg");
+            background-image: url("../imgs/dach.jpg");
             @include barati;
         }
         .barati13{
-            background-image: url("../imgs/detective.jpeg");
+            background-image: url("../imgs/tamta.jpg");
             @include barati;
         }
         .barati14{
@@ -193,7 +192,7 @@
             @include barati;
         }
         .barati19{
-            background-image: url("../imgs/qeti.jpg");
+            background-image: url("../imgs/keti.jpg");
             @include barati;
         }
         .barati20{

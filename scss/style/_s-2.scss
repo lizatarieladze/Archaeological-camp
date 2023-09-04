@@ -28,6 +28,7 @@
 				line-height: normal;
 				letter-spacing: 2px;
 				text-transform: uppercase;
+				text-shadow: 3px 3px rgb(75, 172, 205);
 			}
 			h4{
 				font-family: Roboto;
@@ -51,6 +52,7 @@
 				height: 51px;
 				border-radius: 10px;
 				color: white;
+				position: absolute;
 			}
 			button:hover{
 				background-color: #377d3a;
@@ -77,6 +79,7 @@
 			flex-direction: column;
 			padding: 14px;
 			margin: 0 auto;
+			
 			.line{
 				display: none;
 			}
@@ -95,10 +98,11 @@
 					margin: 0 auto;
 				}
 			}
+			
 			.img{
 				max-width: 600px;
 				width: 100%;
-				margin: 20px auto;
+				margin: 40px auto;
 				.s-2img{
 					width: 100%;
 				}
@@ -133,36 +137,36 @@
 				margin-top:5px;
 			}
 		}
-		.div2{
-			margin-top: 20px;
-			ul{
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: space-around;
-				height: 60px;
-				align-items: center;
-				a{
-					width: 70px;				
-				}
-				.logo{
-					@include logo;
-				}
-				.logo0{
-					@include logo;
-				}
-				.logo1{
-					height: 30px;
-					width: 40px;
-					vertical-align: middle;
-				}
+		// .div2{
+		// 	margin-top: 20px;
+		// 	ul{
+		// 		display: flex;
+		// 		flex-wrap: wrap;
+		// 		justify-content: space-around;
+		// 		height: 60px;
+		// 		align-items: center;
+		// 		a{
+		// 			width: 70px;				
+		// 		}
+		// 		.logo{
+		// 			@include logo;
+		// 		}
+		// 		.logo0{
+		// 			@include logo;
+		// 		}
+		// 		.logo1{
+		// 			height: 30px;
+		// 			width: 40px;
+		// 			vertical-align: middle;
+		// 		}
 				
-				.logo2{
-					height: 40px;
-					width: 50px;
-					vertical-align: middle;
-				}
-			}
-		}
+		// 		.logo2{
+		// 			height: 40px;
+		// 			width: 50px;
+		// 			vertical-align: middle;
+		// 		}
+		// 	}
+	
 	}
 	@media (max-width: 1450px){
 		.box2{
