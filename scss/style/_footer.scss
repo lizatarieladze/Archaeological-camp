@@ -47,10 +47,13 @@ footer{
         h4{
             color: #FFF;
             font-family: Roboto;
-            font-size: 40px;
+            font-size: 30px;
             font-style: normal;
             font-weight: 700;
             line-height: 140%; /* 56px */
+            @media(max-width:400px){
+                font-size: 20px;
+            }
         }
         form{
             margin-top: 32px;

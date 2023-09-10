@@ -52,6 +52,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 65px;
+        margin-bottom: 50px;
         .card1{
             position: relative;
             max-width: 411px;
@@ -67,6 +68,7 @@
                 height: 100%;
                 border-radius: 15px;
                 transition: all  transform 2s; 
+                object-fit: cover;
             }
             .tint:hover {
                 transform: scale(1.05); 

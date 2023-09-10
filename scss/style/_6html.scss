@@ -7,7 +7,7 @@
     border-radius: 15px;
     top: 0;
     padding: 10px;
-    margin: 0 20px;
+    margin: 40px 20px;
     ul{
         display:flex;
         list-style: none;
@@ -21,18 +21,18 @@
 }
 .navbar ul li a {
     text-decoration: none;
-    color: azure;
+    // color: azure;
     padding: 8px 25px;
     transition: all .5s ease;
 }
 .navbar ul li a :hover{
-    background-color: white;
+    // background-color: white;
     color: black;
     box-shadow: 0 0 10px white;
 }
 img{
     width: 50px;
-}
+}   
 #services{
     display: flex;
     flex-direction: column;
@@ -43,6 +43,7 @@ img{
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin-bottom: 60px;
     .box{
         display: flex;
         flex-direction: column;
@@ -53,10 +54,31 @@ img{
         align-items: center;
         text-align: justify;
         padding: 10px;
-        border-radius: 15px;
+        border-radius: 30px;
         background: linear-gradient(to top, rgb(248, 234, 40)50%, rgba(54, 163, 231, 0.887) 50%);
         background-size: 100% 200%;
         transition: all .8;
+        .img{
+            display: flex;
+            margin: 0 auto;
+            img{
+                margin: 20px;
+                object-fit: cover;
+                max-width: 120px;
+                width: 100%;
+                border-radius: 20px;
+            }
+            img:hover{
+                transform: scale(1.9);
+            }
+        };
+        @media(max-width:400px){
+            .img{
+                img{
+                    max-width: 85px;
+                }
+            }
+        }
     }
     .box:hover{
         background-position: left bottom;

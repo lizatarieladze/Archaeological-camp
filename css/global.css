@@ -79,6 +79,12 @@ a {
           transform: scale(3);
 }
 
+.barati01:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .barati1:hover {
   -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
@@ -335,7 +341,7 @@ header .damatebiti .dropdown {
   font-weight: 700;
   line-height: 120%; /* 76.8px */
   margin-bottom: 40px;
-  text-shadow: 5px 5px rgb(5, 144, 183);
+  text-shadow: 3px 3px rgb(5, 144, 183);
 }
 @media (max-width: 950px) {
   .s-1 {
@@ -345,6 +351,19 @@ header .damatebiti .dropdown {
   }
   .s-1 h2 {
     font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 0;
+  }
+}
+@media (max-width: 450px) {
+  .s-1 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .s-1 h2 {
+    font-size: 25px;
     margin-top: 20px;
     text-align: center;
     padding: 0 0;
@@ -391,7 +410,7 @@ header .damatebiti .dropdown {
   line-height: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-shadow: 3px 3px rgb(75, 172, 205);
+  text-shadow: 2px 2px rgb(75, 172, 205);
 }
 .s-2 .box1 .aboutus h4 {
   font-family: Roboto;
@@ -778,6 +797,7 @@ header .damatebiti .dropdown {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 65px;
+  margin-bottom: 50px;
 }
 .s-4 .cardsbox .card1 {
   position: relative;
@@ -796,6 +816,8 @@ header .damatebiti .dropdown {
   border-radius: 15px;
   -webkit-transition: all transform 2s;
   transition: all transform 2s;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .s-4 .cardsbox .card1 .tint:hover {
   -webkit-transform: scale(1.05);
@@ -1125,10 +1147,15 @@ footer .form {
 footer .form h4 {
   color: #FFF;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%; /* 56px */
+}
+@media (max-width: 400px) {
+  footer .form h4 {
+    font-size: 20px;
+  }
 }
 footer .form form {
   margin-top: 32px;
@@ -1529,6 +1556,20 @@ footer {
     font-size: 30px;
   }
 }
+.s-3-5 h2 {
+  color: rgb(221, 225, 6);
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px rgb(5, 24, 100);
+  margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+  .s-3-5 h2 {
+    font-size: 10px;
+    text-shadow: 1px 1px rgb(5, 24, 100);
+  }
+}
 .s-3-5 .baratebi {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1751,6 +1792,10 @@ footer {
 @media (max-width: 500px) {
   .s-3-5 .baratebi h1 {
     font-size: 20px;
+    vertical-align: top;
+  }
+  .s-3-5 .baratebi h2 {
+    font-size: 10px;
     vertical-align: top;
   }
 }
@@ -2428,7 +2473,7 @@ footer {
   border-radius: 15px;
   top: 0;
   padding: 10px;
-  margin: 0 20px;
+  margin: 40px 20px;
 }
 .navbar ul {
   display: -webkit-box;
@@ -2446,14 +2491,12 @@ footer {
 
 .navbar ul li a {
   text-decoration: none;
-  color: azure;
   padding: 8px 25px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .navbar ul li a :hover {
-  background-color: white;
   color: black;
   -webkit-box-shadow: 0 0 10px white;
           box-shadow: 0 0 10px white;
@@ -2484,6 +2527,7 @@ img {
       flex-wrap: wrap;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-bottom: 60px;
 }
 .row .box {
   display: -webkit-box;
@@ -2502,12 +2546,36 @@ img {
           align-items: center;
   text-align: justify;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 30px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgb(248, 234, 40)), color-stop(50%, rgba(54, 163, 231, 0.887)));
   background: linear-gradient(to top, rgb(248, 234, 40) 50%, rgba(54, 163, 231, 0.887) 50%);
   background-size: 100% 200%;
   -webkit-transition: all 0.8;
   transition: all 0.8;
+}
+.row .box .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+.row .box .img img {
+  margin: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 120px;
+  width: 100%;
+  border-radius: 20px;
+}
+.row .box .img img:hover {
+  -webkit-transform: scale(1.9);
+      -ms-transform: scale(1.9);
+          transform: scale(1.9);
+}
+@media (max-width: 400px) {
+  .row .box .img img {
+    max-width: 85px;
+  }
 }
 .row .box:hover {
   background-position: left bottom;

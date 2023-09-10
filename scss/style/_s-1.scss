@@ -17,12 +17,21 @@
 		font-weight: 700;
 		line-height: 120%; /* 76.8px */
 		margin-bottom: 40px;
-		text-shadow: 5px 5px rgb(5, 144, 183);
+		text-shadow: 3px 3px rgb(5, 144, 183);
 	}
 	@media (max-width: 950px){
 		height: fit-content;
 		h2{
 			font-size: 35px;
+			margin-top: 20px;
+			text-align: center;
+			padding: 0 0;
+		}
+	}
+	@media (max-width: 450px){
+		height: fit-content;
+		h2{
+			font-size: 25px;
 			margin-top: 20px;
 			text-align: center;
 			padding: 0 0;
